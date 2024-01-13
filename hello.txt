@@ -1,1 +1,38 @@
-f
+git init          initialize the .git file into the folder for workign of git or local repo
+git clone         clone the remote repo from the github or any other related websites : gitlab etc ... 
+git merge         merge two branches where we want to merge the merge merge the lastest commits from both branches
+git branch        creates deletes modify names the branches
+git reset         resets the current working directory to the specific commit stage --hard --soft --mixed
+git restore       restores the specific file from the specfic commit smae as git reset but additional options
+git revert        same as rest or restore but minimum options are functions
+git switch        used to create or switch or delete a branch
+git checkout      same as switch but other functions are to unmodifies the file which are unstaged
+git merge-files   merge a file from different commits of same type file
+git grep          search for a pattern in all or specfic file
+git config        configures the settings of the git environment
+git diff          gives the changes of the current working file by previous state or different file
+git rev-parse     gives the hash code of the commit
+git rev-list      gives the list of hash code of the commit
+git stash         stores the current modifyed or staged data in the file and unmodifies the current file
+git clean         removes untracked files
+git rm            removes the specfied file or folder
+git push          pushes or changes the remote repo from the local repo 
+git pull          pulls the latest changes from the remote repo to the local repo and merges to the local repo
+git fetch         same as pull but does not merge the changes to the local repo
+git add           trackes stages the modifye content or data 
+git commit        stores the staged data if not stages the commit will not saves because the previous staged file is already saved
+git rerere        a specfic way the git handles tha merging conflicts based on our previous merges 
+git format-patch  to create .patch or .diff files to transfer the file on email to your client
+git apply         to apply the .patch or .diff on the file to make changes usualy works for git diff file_name > ___.patch or __.diff
+git am            same as apply but for git format-patch
+git rebase        to make more changes to the commit history squashing making the history a linear history and more
+git cherry-pick   to merge the different commits from different branches
+git archive       to create zip or tar file to send our directory without git or history
+git shortlog      to show how many authors and specfic details
+git tag           to create a particular instance of the specfied commit to easily access or as a version to remember
+git describe      describes about a specific commit
+git merge-base    is used to find the common ancestor of two branches or commits
+git remote        used to have references to the remote repo thorugh different names
+git status        gives the status of the current directory or a file like files are not staged or not commited
+git log           logs the history of the commits or a commit
+git show          shows the changes of the commits only
